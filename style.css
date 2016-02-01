@@ -1,0 +1,98 @@
+@font-face {
+font-family: Wisdom Script;
+src: url(“assets/WisdomScript.otf”) format(“opentype”);
+}
+
+.hero {
+	background-image: url("assets/Background.png");
+    background-size: 100%;
+}
+
+#logo, #ribbon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    padding-top: 3%;
+}
+
+#ribbon {
+    padding-top: 1%;
+}
+
+.hero p {
+    clear: both;
+    font-size: 14px;
+    font-family: "Noticia Text";
+    color: #FFF0DA;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.hero h2 {
+    color: #F6515D;
+    text-align: center;
+    font-family: "Noticia Text";
+    font-size: 28px;
+    padding: 2%;
+    line-height: 1.5em;
+}
+
+#photo-left {
+    z-index: 1;
+    position: absolute;
+    margin-left: 10%;
+        margin-top: 8%;
+}
+
+#photo-top {
+    z-index: 100;
+    position: absolute; 
+    margin-left: 15%;
+    margin-right: 15%
+}
+
+#photo-right {
+    z-index: 0;
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+#thirty-days {
+    z-index: 100;
+    position: absolute;
+    clear: both;
+    font-size: 30px;
+   margin-left: 40%;
+    margin-top: 10%;
+}
+
+#sign {
+    z-index: 100;
+    position: absolute;
+    clear: both;
+    font-size: 18px;
+   margin-left: 35%;
+    margin-top: 3%;
+     font-size: 24px;
+}
+
+
+.container2 {
+    clear: both;}
+
+.hero {overflow: auto;}
+
+
+.container2, .footer {
+    background-color: #F6515D;
+}
+
+.container3 {
+    background-color: #333333;
+    color: #FFF0DA;
+}
